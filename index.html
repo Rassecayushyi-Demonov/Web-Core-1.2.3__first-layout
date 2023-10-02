@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="image-bg">
+        <img src="./image/bg.jpg" alt="" class="image-bg__main">
+        <img src="./image/logo.svg" alt="" width="70px" height="20px" class="image-bg__logo">
+    </div>
+
+    <div class="reg-div">
+    <h1 class="header-text">Get iintoo it today</h1>
+    <span class="header-span">There is no charge or obligation upon registration.</span>
+    <div class="reg-btns">
+    <button class="reg-btn reg-btn-facebook"><a href="#" class="reg-btn-facebook">
+        <img  class="reg-btn__img" src="./image/facebook.svg" alt="" width="14px" height="13px">Register with Facebook
+    </a></button>
+    <button class="reg-btn reg-btn-linkeldin"><a href="#" class="reg-btn-linkeldin">
+        <img class="reg-btn__img" src="/image/linkedin.svg" alt="" width="14px" height="13px">Register with Linkeldin
+    </a></button>
+    </div>
+    <div class="line">or</div>
+
+    <form class="form-adress">
+        <input type="email" placeholder="Email" class="form-adress__btn">
+        <input type="text" placeholder="Phone" class="form-adress__btn form-adress__btn__phone">
+    </form>
+
+    <h2 class="main-text">What type of investor are you?</h2>
+    <span class="main-span">Selected the type of investor you are below.</span>
+
+    <form>
+        <ul class="main-form__selected">
+              <li><input type="radio" id="ind" name="selected" value="Individual">
+          <label for="Individual">Individual</label><br></li>
+
+        <li>
+          <input type="radio" id="bus" name="selected" value="Business">
+          <label for="Business">Business</label><br></li>
+
+        <li>
+          <input type="radio" id="ira" name="selected" value="IRA">
+          <label for="IRA">IRA</label><br></li>
+
+        <li>
+          <input type="radio" id="trust" name="selected" value="Trust">
+          <label for="Trust">Trust</label></li>
+        </ul>
+        </form> 
+
+        <div class="none">
+            I am a natural person investing on my own behalf as a sole owner, joint tenant, or tehant in common 
+        </div>
+
+        <div class="agreement-div"></div>
+        <input type="checkbox" id="agreement-box">
+        <span class="agreement-text">I agree to the terms and receivong notifications from iintoo 
+        <a href="#" class="agreement-link">View full terms</a></span>
+        
+
+        <button class="creatAcc">Creat Account</button>
+    </div>
+    </div>
+</body>
+</html>
